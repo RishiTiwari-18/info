@@ -1,0 +1,89 @@
+@font-face {
+    font-family: font;
+    src: url(./CONSOLA.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: font;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    padding: 20px 0;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:0 25px;
+    
+    
+}
+
+.left span{
+    color: #dadada;
+    font-weight: 100;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 6.5px;
+}
+
+.right div{
+    color: #faa356;
+    font-size: 18px;
+}
+
+.right span{
+    color: #a2d2fb;
+    font-size: 18px;
+}
+
+.top{
+    height: 40px;
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    border: 2px solid #292929;
+
+}
+
+.top span{
+    font-size: 11px;
+    background-color: #222;
+    color: #dadada;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    height: 100%;
+    padding:0  25px;
+    border-right:  1.5px  solid #292929;
+    border-bottom: 2px solid #222;
+}
+
+.top span h5{
+    color: yellow;
+    font-size: 12px;
+    font-family: gilroy;
+}
+
+.top h1{
+    font-weight: 100;
+    margin-left: 15px;
+}
