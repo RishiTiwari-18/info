@@ -1,7 +1,7 @@
 navigator.getBattery().then(function (battery) {
   function updateBatteryStatus() {
     document.querySelector("#batteryLevel").textContent =
-      `"${battery.level*100}%"`;
+      `"${Math.floor(battery.level*100)}%"`;
     document.querySelector("#chargingStatus").textContent = battery.charging
       ? `"Charging"`
       : `"Not Charging"`;
